@@ -1,0 +1,55 @@
+.RestaurentHeader-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #282c3f;
+}
+
+.rating-container{
+  border: 1px solid #e9e9eb;
+    box-shadow: 0 1px 5px #f9f9f9;
+    border-radius: 6px;
+    text-align: center;
+    padding: 8px;
+    max-width: 100px;
+    float: right;
+}
+
+.avg-rating{
+  margin-bottom: 5px;
+  color: #3d9b6d;
+}
+
+.sub-text{
+  font-size: 1.4rem;
+    color: #8b8d97;
+    font-family: ProximaNovaCondensedRegular,arial,Helvetica Neue,sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.sub-text1{
+  font-size: 1.4rem;
+    color: #8b8d97;
+    font-family: ProximaNovaCondensedRegular,arial,Helvetica Neue,sans-serif;
+}
+.title-text{
+  font-size: 2 rem;
+    font-weight: 600;
+    color: #282c3f;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+.time-price-container{
+margin-top: 20px;
+}
+.time-price-items{
+  list-style-type: none;
+  display: flex;
+}
+.time-price-item{
+  color: #3e4152;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 25px;
+}

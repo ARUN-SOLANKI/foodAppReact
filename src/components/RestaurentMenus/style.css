@@ -1,0 +1,8 @@
+.RestaurentMenus-cont{
+  margin-top: 30px;
+}
+.menus-header-container{
+  display: flex;
+  justify-content: space-between;
+}
+
