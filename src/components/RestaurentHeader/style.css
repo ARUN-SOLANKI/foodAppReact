@@ -12,13 +12,18 @@
     border-radius: 6px;
     text-align: center;
     padding: 8px;
-    max-width: 100px;
+    max-width: 150px;
     float: right;
 }
 
 .avg-rating{
+  display: flex;
+  align-items: center;
   margin-bottom: 5px;
   color: #3d9b6d;
+}
+.ratings{
+  margin-left: 10px;
 }
 
 .sub-text{

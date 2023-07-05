@@ -7,12 +7,28 @@
   flex-wrap: wrap;
 }
 .restaurent-detail-page{
-  padding: 20px 100px;
+  margin: auto;
+  max-width: 1000px;
+  padding: 20px 20px;
 }
 .discount-card-section{
   margin-top: 30px;
   margin-bottom: 30px;
+  display: flex;
+  overflow: auto; /* Enable vertical and horizontal scrolling */
+  scrollbar-width: none; /* Hide the default scrollbar for Firefox */
+  -ms-overflow-style: none;
+}
+
+
+.discount-card-section::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
 }
 .menus-container{
   margin-top: 30px;
+}
+
+.restaurent-license-container{
+  background-color: #f1f1f6;
 }

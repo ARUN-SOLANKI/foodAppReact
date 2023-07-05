@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
 
+import {AiFillStar} from 'react-icons/ai'
 function RestaurentHeader({restaurentDetails}) {
   return (
     <div>
@@ -11,7 +12,7 @@ function RestaurentHeader({restaurentDetails}) {
         <p className='sub-text1'>{restaurentDetails?.locality} {restaurentDetails?.city}</p>
       </div>
       <div className='rating-container'>
-        <h3 className='avg-rating'>star {restaurentDetails?.avgRating}</h3>
+        <div className='avg-rating'><AiFillStar size={20} /> <h2 className='ratings'>{restaurentDetails?.avgRating}</h2></div>
         <hr />  
         <p className='sub-text'>{restaurentDetails?.totalRatingsString}</p>
       </div>

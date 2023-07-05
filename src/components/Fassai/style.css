@@ -1,0 +1,18 @@
+.fassai-container{
+  padding: 16px 16px 16px;
+  background-color: #f1f1f6;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.fassai-text{
+ 
+  background-color: #f1f1f6;
+  font-size: 1.2rem;
+  color: #93959f;
+  margin-left: 15px;
+}
+.fassai-img{
+  width: 60px;
+  color: #93959f;
+}

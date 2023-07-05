@@ -1,0 +1,35 @@
+.footer-address-container {
+  padding: 16px 16px 16px;
+  background-color: #f1f1f6;
+  padding-bottom: 80px;
+}
+
+/* .footer-address-inner-container {
+  border-top: 2px solid red;
+} */
+
+.address-container{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.restaurent-title {
+  font-size: 2rem;
+  font-weight: 600;
+  border-top: 1px solid #a9abb2;
+  padding-top: 16px;
+  text-transform: capitalize;
+  color: #a9abb2;
+}
+
+.outlet-title{
+  color: #a9abb2;
+  font-size: 1.6rem;
+}
+
+.address{
+  font-size: 1.6rem;
+  margin-left: 10px;
+  color: #a9abb2;
+}

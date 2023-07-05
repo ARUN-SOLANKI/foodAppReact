@@ -1,0 +1,17 @@
+.isvegonly-container{
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 20px;
+}
+.vegOnly-img{
+  width: 40px;
+}
+.vegonly-container{
+  display: flex;
+  align-items: center;
+ 
+}
+
+.vegonly-text{
+  margin-left: 10px;
+  font-size: 2.2rem;
+}
