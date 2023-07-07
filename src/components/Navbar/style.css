@@ -44,3 +44,14 @@
 .nav-item:hover{
   color: #ffa700;
 }
+
+.nav-title{
+  font-size: 2rem;
+}
+
+.nav-item-container{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+

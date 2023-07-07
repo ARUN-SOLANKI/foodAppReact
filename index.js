@@ -6,6 +6,7 @@ import Home from './src/pages/Home'
 import About from './src/pages/About'
 import Contact from './src/pages/Contact'
 import Restaurent from './src/pages/Restaurent'
+import Search from './src/pages/Search'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: '/Restaurent/:resId',
         element: <Restaurent />
+      },
+      {
+        path: '/search',
+        element: <Search />
       },
     ]
   },
